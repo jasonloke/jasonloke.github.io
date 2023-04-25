@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sonic</title>
+    <link rel="icon" href="images/iconfeedback.png">
+    <link rel="stylesheet" href="sonic.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sonic</h1>
+    </header>
+    <!--Navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="promotion.html">Promotion</a></li>
+            <li><a href="feedback.html">FeedBack</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--feedback form-->
+        <div class="feedback">
+            <h1>Feedback Form</h1>
+            <form action="https://www.w3schools.com/action_page.php" method="post">
+                First Name : <input type="text" name="firstname" placeholder="Enter name here">
+                Second Name : <input type="text" name="secondname" placeholder="Enter surname here">
+                <br>
+                <br>
+
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female
+                <br>
+                <br>
+                Email: <input type="email" name="mail" placeholder="e-mail address">
+                <br>
+                <br>
+                Comment :<br>
+                <textarea rows="6" cols="50" name="commentfield"></textarea>
+                <br>
+                <select name="countychooser">
+                    <option value="TERENGGANU">TERENGGANU</option>
+                    <option value="PERLIS">PERLIS</option>
+                    <option value="SELANGOR">SELANGOR</option>
+                    <option value="NEGERI SEMBILAN">NEGERI SEMBILAN</option>
+                    <option value="JOHOR">JOHOR</option>
+                    <option value="KELANTAN">KELANTAN</option>
+                    <option value="PERAK">PERAK</option>
+                    <option value="KEDAH">KEDAH</option>
+                    <option value="PAHANG">PAHANG</option>
+                    <option value="PULAU PINANG">PULAU PINANG</option>
+                    <option value="MELAKA">MELAKA</option>
+                    <option value="SABAH">SABAH</option>
+                    <option value="SARAWAK">SARAWAK</option>
+                    <option value="W.P.KUALA LUMPUR">W.P.KUALA LUMPUR</option>
+                    <option value="W.P.PUTRAJAYA">W.P.PUTRAJAYA</option>
+                    <option value="W.P.LABUAN">W.P.LABUAN</option>
+                </select>
+                <br>
+                <br>
+                <div class="sendfeedback">
+                    <a href="congrat.html">Send Feedback</a>
+                    <input TYPE="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+    <!--footer-->
+    <footer>
+        <b>Copyright&copy;2023Sonic<br></b>
+        <a href="mailto:sonic@yahoo.com" class="mail">sonic@yahoo.com</a>
+
+    </footer>
+</body>
+
+</html>

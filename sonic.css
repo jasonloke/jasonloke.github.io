@@ -1,0 +1,234 @@
+/*for all page,body header,footer,nav*/
+body {
+    background-color:honeydew ;
+
+}
+
+header {
+    background-color: #191970;
+    color: #ffffff;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: large;
+}
+
+footer {
+    background-color: #191970;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+}
+
+nav {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'papyrus';
+}
+
+nav a:hover {
+    color: aqua;
+    font-weight: 600;
+}
+/*end for all page,body header,footer,nav*/
+
+/*for div*/
+div {
+    display: block;
+}
+/*end for div*/
+
+/*for vid*/
+.vid {
+    align-items: center;
+    width: 80%;
+    margin-left: 280px;
+    margin-right: auto;
+}
+/*end for div*/
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/*for itembox*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8%;
+    justify-content: center;
+}
+
+.itembox {
+    width: auto;
+    height: auto;
+    margin: 6%;
+}
+
+.itembox img {
+    height: 250px;
+    width: 250px;
+}
+/*end for itembox*/
+h6 {
+    text-align: center;
+}
+/*for form*/
+.feedback
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+/*end for form*/
+
+/*for faqpage*/
+.wrapper2{
+    width: 1200px;
+    margin: 100px auto;
+    color: #191970;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:x-large;
+}
+
+.faq{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item{
+    background: rgba(14, 30, 177, 0.945);
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(13, 4, 4, 0.907);
+}
+
+.accordion-link{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.accordion-link i{
+    color: white;
+    padding: .5rem;
+}
+
+.answer::before{
+    content: '';
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #ffffff;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.accordion-link:hover{
+    background: rgba(12, 163, 173, 0.712);
+}
+
+.accordion-link .ion-md-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background: rgba(61, 192, 209, 0.885);
+    transition: max-height 650ms;
+}
+
+.answer p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.mail{
+    color: #a3e6f7;
+}
+
+h3 {
+    text-align: center;
+}
+
+strong {
+    color: #191970;
+    font-size:x-large;
+}
+
+.faqboxes{
+    display:block;
+    flex-wrap: wrap;
+    margin: 10%;
+    justify-content: center;
+}
+
+.faqbox{
+    border: solid;
+    width:auto;
+    min-height: 225px;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    background-color:#EEE9DA;
+    margin:20px;
+}
+
+.faqbox h3{
+    font-size: 1.5em;
+    padding: 4px;
+    text-align: center;
+}
+
+.faqbox p{
+    font-size: 1.2em;
+    padding: 5px;
+}
+/*end for faqpage*/
+/*for congrat */
+.sendfeedback a{
+    color: black;
+  text-decoration: none;
+}
+/*end for congrat */
